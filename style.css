@@ -10,6 +10,9 @@ body {
   body {
     margin: 0;
   }
+  p {
+    margin: 20px;
+  }
   
   .header {
     background-color: #f1f1f1;
@@ -20,6 +23,7 @@ body {
     box-sizing: border-box;
     padding: 10px;
     font-size: 50px;
+    float: left;
   }
   .topnav {
     overflow: hidden;
@@ -47,13 +51,11 @@ body {
     font-size:40px;
     border: 10px solid powderblue;  
   }
-  .container {
-    border: 2px solid black;
-    padding: 30px;
-    margin: 20px;
-  }
+
   .subborder {
     border-right: 2px solid #e0c0f7;
+    float: left;
+    border-right-
   }
   a:link {
     color: pink;
@@ -84,25 +86,8 @@ body {
     object-fit: cover;
     background-position: center;
   }
-  .box2 {
-    width: 400px;
-    height: 150px;
-    padding: 45px;
-    margin: 20px;
-    border: 10px solid #e0c0f7;
-    object-fit: cover;
-    background-position: center;
-  }
-  .box3 {
-    width: 400px;
-    height: 150px;
-    padding: 45px;
-    margin: 20px;
-    border: 10px solid #e0c0f7;
-    object-fit: cover;
-    background-position: center;
-  }
-  .box4 {
+  
+  .box1 {
     width: 400px;
     height: 150px;
     padding: 45px;
@@ -115,8 +100,34 @@ body {
     margin-top: -40px;
     margin-bottom: 40px;
     margin-left: -35px;
-    width: 375px;
-    height: 125px;
+    width: 378px;
+    height: 130px;
     padding: 45px;
     border: 5px solid black;
+  }
+  .subbox {
+    margin-top: -40px;
+    margin-bottom: 40px;
+    margin-left: -35px;
+    width: 900px;
+    height: 225px;
+    padding: 35px;
+    border: 5px solid black;
+  }
+  #aboutme {
+    text-align: left;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px  transparent;
+  }
+  .big {
+    width: 900px;
+    height: 300px;
+    padding: 90px;
+    margin: 40px;
+    border: 10px solid #e0c0f7;
+    object-fit: cover;
+    background-position: center;
   }
