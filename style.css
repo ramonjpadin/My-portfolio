@@ -52,11 +52,35 @@ body {
     border-right: 2px solid #ddd;
     float: left; 
   }
+  .aboutme {
+    text-align: center;
+    width: 90%;
+    height: 200px;
+    border: 20px solid;
+
+  }
+  img {
+    size: auto;
+    float: right;
+    margin-left: -200px;
+    margin-bottom: -200px;
+  }
+  .subborder1 {
+    border-right: 2px solid #ddd;
+    float: left;
+    padding: 40px;
+  } 
+  .projects {
+    text-align: center;
+    width: 400px;
+    height: 200px;
+  }
   .subborder2 {
     border-right: 2px solid #ddd;
     float: left;
     height: 1150px;
-  }
+    padding: 40px;
+  }  
   a:link {
     color: pink;
     background-color: transparent;
@@ -154,6 +178,7 @@ body {
     border: 2px  transparent;
     justify-content: center;
   }
+  
   
   .big {
     width: 850px;
