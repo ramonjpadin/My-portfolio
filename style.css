@@ -4,10 +4,6 @@
 
 body {
     background-color:#f6f7f8;
-  }
-
-  
-  body {
     margin: 0;
   }
   p {
@@ -53,9 +49,13 @@ body {
   }
 
   .subborder {
-    border-right: 2px solid #e0c0f7;
+    border-right: 2px solid #ddd;
+    float: left; 
+  }
+  .subborder2 {
+    border-right: 2px solid #ddd;
     float: left;
-    border-right-
+    height: 1150px;
   }
   a:link {
     color: pink;
@@ -81,21 +81,51 @@ body {
     width: 400px;
     height: 150px;
     padding: 45px;
-    margin: 20px;
-    border: 10px solid #e0c0f7;
+    margin: 10px;
+    border: 10px solid #ddd;
     object-fit: cover;
     background-position: center;
+    background-image: url(https://images.pexels.com/photos/7195136/pexels-photo-7195136.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    cursor: pointer;
+    position: relative;
   }
-  
-  .box1 {
+  .box2 {
     width: 400px;
     height: 150px;
     padding: 45px;
     margin: 10px;
-    border: 10px solid #e0c0f7;
+    border: 10px solid #ddd;
     object-fit: cover;
     background-position: center;
+    background-image: url(https://images.pexels.com/photos/1037992/pexels-photo-1037992.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    cursor: pointer;
+    position: relative;
   }
+  .box3 {
+    width: 400px;
+    height: 150px;
+    padding: 45px;
+    margin: 10px;
+    border: 10px solid #ddd;
+    object-fit: cover;
+    background-position: center;
+    background-image: url(https://images.pexels.com/photos/1037993/pexels-photo-1037993.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    cursor: pointer;
+    position: relative;
+  }
+  .box4 {
+    width: 400px;
+    height: 150px;
+    padding: 45px;
+    margin: 10px;
+    border: 10px solid #ddd;
+    object-fit: cover;
+    background-position: center;
+    background-image: url(https://images.pexels.com/photos/7195126/pexels-photo-7195126.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    cursor: pointer;
+    position: relative;
+  }
+  
   .box {
     margin-top: -40px;
     margin-bottom: 40px;
@@ -109,25 +139,31 @@ body {
     margin-top: -40px;
     margin-bottom: 40px;
     margin-left: -35px;
-    width: 900px;
-    height: 225px;
+    width: 850px;
+    height: 220px;
     padding: 35px;
-    border: 5px solid black;
+    border: 4px solid black;
   }
-  #aboutme {
+  .aboutme {
     text-align: left;
   }
+
   .container {
     display: flex;
     flex-wrap: wrap;
     border: 2px  transparent;
+    justify-content: center;
   }
+  
   .big {
-    width: 900px;
-    height: 300px;
+    width: 850px;
+    height: 220px;
     padding: 90px;
     margin: 40px;
     border: 10px solid #e0c0f7;
     object-fit: cover;
     background-position: center;
+    background-image: url(https://images.pexels.com/photos/844297/pexels-photo-844297.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    cursor: pointer;
+    position: relative;
   }
