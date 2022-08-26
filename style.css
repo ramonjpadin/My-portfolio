@@ -8,12 +8,6 @@ body {
   p {
     margin: 20px;
   }
-
-  .header {
-    background-color: #f1f1f1;
-    padding: 20px;
-    text-align: left;
-  }
   .header1 {
     display: flex;
     box-sizing: border-box;
@@ -24,12 +18,16 @@ body {
     align-items: flex-start;
     background-image:url(https://images.pexels.com/photos/7195138/pexels-photo-7195138.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     width: 100%;
+    border: 2px solid;
   }
   .topnav {
     overflow: hidden;
     background-color: #ddd;
     width: 100%;
     height: 200px;
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+    border-left: 2px solid;
   }
   .subheader {
     display: flex;
@@ -72,7 +70,6 @@ body {
     text-align: center;
     width: 90%;
     height: 200px;
-
   }
   img {
     size: auto;
@@ -80,20 +77,31 @@ body {
     border-radius: 50%;
   }
   .subborder1 {
-    border-right: 2px solid #ddd;
+    display: block;
+    border-right: 4px solid #ddd;
     float: left;
-    padding: 40px;
-  } 
-  .projects {
-    text-align: center;
-    width: 400px;
     height: 200px;
+    text-align: center;
+    margin-right: 5%;
+  
+  } 
+  .paragraphs {
+    display: block;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    text-align-last: center;
+  }
+  .projects {
+    margin-right: 2%;
+    width: 50px;
+    height: 50px;
   }
   .subborder2 {
     border-right: 2px solid #ddd;
     float: left;
     height: 1150px;
-    padding: 40px;
+    padding: 20px;
   }  
   a:link {
     color: pink;
@@ -182,10 +190,6 @@ body {
     padding: 35px;
     border: 4px solid black;
   }
-  .aboutme {
-    text-align: left;
-  }
-
   .container {
     display: flex;
     justify-content: space-evenly;
