@@ -1,82 +1,34 @@
 <!DOCTYPE html>
-<html lang="en-US">
-
+<html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <title>My portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-
   <body>
-    <div id="header">
-    <header class="header1">
-      <img src=./photos/IMG_3223.JPG  width="150" height="150">
-      <h1>Ramon Padin</h1>
-    </header>
-  </div>
-
-    <nav class="topnav">
-      <a href="#">Contact Info</a>
-      <a href="#">Work</a>
-      <a href="#">About Me</a>
-      <div class="subheader">
-        <p> My portfolio</p> </div>
-    </nav>
-
-    <div class="aboutme">
-      <h2 class="subborder1"> About me</h2>
-      <p class="paragraphs" >Lorem ipsum dolor sit amet,
-         consectetur adipiscing elit, sed do eiusmod tem
-         por incididunt ut labore et dolore magna aliqua.
-         Lorem ipsum dolor sit amet,
-         consectetur adipiscing elit, sed do eiusmod tem
-         por incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet,
-         consectetur adipiscing elit, sed do eiusmod tem
-         por incididunt ut labore et dolore magna aliqua.
-         Lorem ipsum dolor sit amet,
-         consectetur adipiscing elit, sed do eiusmod tem
-         por incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet,
-         consectetur adipiscing elit, sed do eiusmod tem
-         por incididunt ut labore et dolore magna aliqua.
-         Lorem ipsum dolor sit amet,
-         consectetur adipiscing elit, sed do eiusmod tem
-         por incididunt ut labore et dolore magna aliqua.
-      </p>
+    <div class="wrapper">
+      <header>
+        <h1>Password Generator</h1>
+      </header>
+      <div class="card">
+        <div class="card-header">
+          <h2>Generate a Password</h2>
+        </div>
+        <div class="card-body">
+          <textarea
+            readonly
+            id="password"
+            placeholder="Your Secure Password"
+            aria-label="Generated Password"
+          ></textarea>
+        </div>
+        <div class="card-footer">
+          <button id="generate" class="btn">Generate Password</button>
+        </div>
+      </div>
     </div>
-
-    <div id="projects" class="projects">
-      <h2 class="subborder2">Work</h2>
-      </div>
-      <div class="container";>
-        <div class="big";>
-          <div class="subbox">Surf Report</div>
-          </div>
-        <div class="box1";>
-          <div class="box">LED Wall</div>
-        </div>
-        <div class="box2";>
-          <div class="box">Calculator</div>
-        </div>
-
-        <div class="box3";>
-          <div class="box">Pastel Puzzles</div>
-        </div>
-          
-        <div class="box4";>
-          <div class="box">Run Buddy</div>
-        </div>
-      </div>
-
-
-    <footer>
-      <h2>Contact Info</h2>
-      <ul style="text-align:center"; style="background-color:white";>
-        <li><strong>Email:</strong> ramonjpadin@gmail.com</li>
-        <li><strong>Github:</strong> <a href="https://github.com/ramonjpadin">Github</a></li>
-        <li><strong>Phone Number:</strong>(216) 555-5555</a></li>
-        <li><strong>Linked In:</strong> <a href="https://www.linkedin.com/in/ramon-padin-7bba55247/">Linked In</a></li>
-      </ul>
-    </footer>
+    <script src="script.js"></script>
   </body>
-
 </html>
