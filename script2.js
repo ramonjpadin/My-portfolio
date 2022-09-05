@@ -122,11 +122,6 @@ function generatePassword() {
       selectedCharacters[Math.floor(Math.random() * selectedCharacters.length)];
   }
 
-  //randomPasswordGenerated += minimumNumbers;
-  //randomPasswordGenerated += minimumLowerCases;
-  //randomPasswordGenerated += minimumUpperCases;
-  //randomPasswordGenerated += minimumSpecialCharacters;
-
   console.log(randomPasswordGenerated);
   return randomPasswordGenerated;
 }
